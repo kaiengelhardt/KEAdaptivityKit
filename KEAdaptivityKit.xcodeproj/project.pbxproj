@@ -290,7 +290,7 @@
 				TargetAttributes = {
 					5E5DCC762132D51E00F97E90 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1220;
 					};
 					5E5DCC872132D57900F97E90 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -563,7 +563,7 @@
 				PRODUCT_NAME = KEAdaptivityKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -589,7 +589,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiengelhardt.KEAdaptivityKit-iOS";
 				PRODUCT_NAME = KEAdaptivityKit;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
