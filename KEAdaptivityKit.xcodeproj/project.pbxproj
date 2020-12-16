@@ -75,7 +75,7 @@
 		5E5DCC8B2132D57900F97E90 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		5E5DCC952132D58800F97E90 /* KEAdaptivityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KEAdaptivityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5DCC982132D58800F97E90 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
-		5E5DCCAB2132DCC900F97E90 /* AdaptiveInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveInterface.swift; sourceTree = "<group>"; };
+		5E5DCCAB2132DCC900F97E90 /* AdaptiveInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveInterface.swift; sourceTree = "<group>"; usesTabs = 1; };
 		5E5DCCB22132DEC900F97E90 /* TraitCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitCondition.swift; sourceTree = "<group>"; };
 		5E5DCCB62132DED200F97E90 /* SizeCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCondition.swift; sourceTree = "<group>"; };
 		5E5DCCBA2132EF7900F97E90 /* SizeAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeAttribute.swift; sourceTree = "<group>"; };
@@ -122,6 +122,7 @@
 				5E5DCC782132D51E00F97E90 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		5E5DCC782132D51E00F97E90 /* Products */ = {
 			isa = PBXGroup;
