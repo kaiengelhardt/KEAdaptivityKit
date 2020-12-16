@@ -45,9 +45,9 @@ public protocol AdaptiveCondition {
 	
 }
 
-public extension Array where Element == AdaptiveCondition {
+extension Array where Element == AdaptiveCondition {
 	
-    func evaluate(with dataSource: AdaptiveElementDataSource) -> Bool {
+	public func evaluate(with dataSource: AdaptiveElementDataSource) -> Bool {
 		return reduce(true) { result, element in
 			result && element.evaluate(with: dataSource)
 		}

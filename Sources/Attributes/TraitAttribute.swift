@@ -37,9 +37,9 @@ public protocol TraitAttribute: AdaptiveAttribute {
 	
 }
 
-public extension TraitAttribute {
+extension TraitAttribute {
 	
-    func generateCondition() -> AdaptiveCondition {
+	public func generateCondition() -> AdaptiveCondition {
 		return TraitCondition(traitCollection: traitCollection)
 	}
 	
