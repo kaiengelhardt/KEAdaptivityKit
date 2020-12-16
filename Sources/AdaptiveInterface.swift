@@ -46,7 +46,7 @@ public protocol AdaptiveInterface: AnyObject {
 	
 }
 
-public extension AdaptiveInterface {
+extension AdaptiveInterface {
 	
 	public func update(with dataSource: AdaptiveElementDataSource) {
 		for i in 0 ..< adaptiveElements.count {
@@ -63,7 +63,7 @@ public extension AdaptiveInterface {
 	
 }
 
-public extension AdaptiveInterface {
+extension AdaptiveInterface {
 	
 	public func when(_ attribute: AdaptiveAttribute, activateConstraints constraints: [NSLayoutConstraint]) {
 		when([attribute], activateConstraints: constraints)
