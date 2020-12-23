@@ -66,7 +66,7 @@ extension UIView: AdaptiveElementDataSource {}
 
 #endif
 
-#if canImport(AppKit)
+#if canImport(AppKit) && !targetEnvironment(macCatalyst)
 
 extension NSViewController: AdaptiveElementDataSource {
 	
