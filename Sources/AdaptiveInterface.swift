@@ -40,6 +40,8 @@ import AppKit
 
 #endif
 
+/// Deprecated! Do not use AdaptiveInterface anymore in new code.
+/// There is better ways to do this. See @ActiveConstraint.
 public protocol AdaptiveInterface: AnyObject {
 	
 	var adaptiveElements: [AdaptiveElement] { get set }
